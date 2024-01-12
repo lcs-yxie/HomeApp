@@ -11,6 +11,8 @@
 		64561CF52B4E2EC700174BB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64561CF42B4E2EC700174BB5 /* ContentView.swift */; };
 		64561CF72B4E2EC900174BB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64561CF62B4E2EC900174BB5 /* Assets.xcassets */; };
 		64561CFA2B4E2EC900174BB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64561CF92B4E2EC900174BB5 /* Preview Assets.xcassets */; };
+		64561D012B4EFF1900174BB5 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64561D002B4EFF1900174BB5 /* RoundButton.swift */; };
+		64561D032B4F096A00174BB5 /* SquareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64561D022B4F096A00174BB5 /* SquareButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		64561CF42B4E2EC700174BB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		64561CF62B4E2EC900174BB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64561CF92B4E2EC900174BB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64561D002B4EFF1900174BB5 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		64561D022B4F096A00174BB5 /* SquareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				64561CF22B4E2EC700174BB5 /* HomeAppApp.swift */,
+				64561D002B4EFF1900174BB5 /* RoundButton.swift */,
+				64561D022B4F096A00174BB5 /* SquareButton.swift */,
 				64561CF42B4E2EC700174BB5 /* ContentView.swift */,
 				64561CF62B4E2EC900174BB5 /* Assets.xcassets */,
 				64561CF82B4E2EC900174BB5 /* Preview Content */,
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				64561CF52B4E2EC700174BB5 /* ContentView.swift in Sources */,
+				64561D012B4EFF1900174BB5 /* RoundButton.swift in Sources */,
 				64561CF32B4E2EC700174BB5 /* HomeAppApp.swift in Sources */,
+				64561D032B4F096A00174BB5 /* SquareButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
